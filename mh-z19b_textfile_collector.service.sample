@@ -1,0 +1,8 @@
+[Unit]
+Description=MH-Z19B Textfile collector
+After=node_exporter.service
+Requires=node_exporter.service
+
+[Service]
+Type=oneshot
+ExecStart=YOUR_SCRIPT_PATH

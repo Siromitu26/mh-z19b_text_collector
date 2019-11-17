@@ -1,0 +1,10 @@
+[Unit]
+Description=MH-Z19B Textfile collector
+
+[Timer]
+OnUnitActiveSec=1s
+AccuracySec=1us
+Persistent=true
+
+[Install]
+WantedBy=timers.target
