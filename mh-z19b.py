@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 from prometheus_client import CollectorRegistry, Gauge, write_to_textfile
 from mh_z19b.sync import Sensor
